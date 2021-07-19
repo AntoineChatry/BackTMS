@@ -4,4 +4,4 @@ from .models import TMS
 class TmsSerializer(serializers.ModelSerializer):
     class Meta:
         model = TMS
-        fields = ('id', 'title', 'description', 'completed')
+        fields = ('id', 'title', 'description', 'completed', 'places')
